@@ -56,3 +56,25 @@ body {
     text-decoration: line-through;
     color: #999;
 }
+
+.task .checkbox {
+    margin-right: 10px;
+}
+
+.task.completed .task-text {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.task .edit-task {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.task .edit-task:hover {
+    background-color: #e0a800;
+}
